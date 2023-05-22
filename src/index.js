@@ -13,7 +13,6 @@ function handleSubmit(e) {
 
     document.body.style.backgroundImage = "none"; // removes the background image
     document.body.style.setProperty("background-color", "#952861", "important"); // changes the background color
-    button.classList.add('submitted'); // adds a class to the button to change the hover color
     inputFields.forEach(input => input.classList.add('submitted')); // adds a class to the input fields to change hover border color
 
     form.reset() // resets the form input fields 
