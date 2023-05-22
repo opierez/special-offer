@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../special-offer/assets/fonts/SFProDisplay-Regular.woff') format('woff');
+}
+
+body {
+    position: relative;
+    width: 1512px;
+    height: 981px;
+    background-color: black !important;
+    background: url("../special-offer/assets/images/Asset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    position: absolute;
+    width: 553px;
+    height: 96px;
+    left: 408px;
+    top: 238px;
+
+    /* X-Large */
+
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+p {
+    position: absolute;
+    width: 522px;
+    height: 96px;
+    left: 408px;
+    top: 370px;
+
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 24px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+   
+}
+
+#input-1 {
+    
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 408px;
+    top: 514px;
+
+    /* Background/Primary */
+
+    background: #000000;
+    /* Border/Secondary */
+
+    border: 2px solid #3D3D3D;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#input-2 {
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 761px;
+    top: 514px;
+
+    /* Background/Primary */
+
+    background: #000000;
+    /* Border/Secondary */
+
+    border: 2px solid #3D3D3D;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#input-3 {
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 695px;
+    height: 56px;
+    left: 408px;
+    top: 582px;
+
+    /* Background/Primary */
+
+    background: #000000;
+    /* Text/Success */
+
+    border: 2px solid #129A14;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#input-1::placeholder,
+#input-2::placeholder,
+#input-3::placeholder {
+    color: #FFFFFF;
+    font-weight: bold; 
+}
+
+input[type="text"] {
+    color: white;
+}
+
+#input-1:hover,
+#input-2:hover,
+#input-3:hover {
+  border-color: #952861;
+}
+
+#input-1.submitted:hover,
+#input-2.submitted:hover,
+#input-3.submitted:hover {
+  border-color: #0206ED;
+}
+
+span {
+    position: absolute;
+    width: 696px;
+    height: 40px;
+    left: 408px;
+    top: 646px;
+
+    /* Small Bold */
+
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    display: flex;
+    align-items: center;
+
+    /* Text/Primary */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 4px;
+
+    position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 408px;
+    top: 734px;
+
+    /* Button/Primary */
+
+    background: #FFFFFF;
+    border-radius: 16px;
+
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #D45E28;
+    border-color: #254A16;
+    color: white;
+}
+
+button.submitted:hover {
+    background-color: #254A16;
+}
