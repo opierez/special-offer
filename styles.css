@@ -5,8 +5,8 @@
 
 body {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 1512px;
+    height: 981px;
     background-color: black !important;
     background: url("../special-offer/assets/images/Asset.png");
     background-repeat: no-repeat;
@@ -15,15 +15,12 @@ body {
     padding: 0;
 }
 
-
-
 h1 {
     position: absolute;
     width: 553px;
     height: 96px;
     left: 408px;
     top: 238px;
-  
 
     /* X-Large */
 
@@ -39,10 +36,6 @@ h1 {
     letter-spacing: -0.02em;
 
     color: #FFFFFF;
-    /* width: 50vw; 
-    height: 10vh; 
-    left: 40vw; 
-    top: 25vh;  */
 }
 
 p {
@@ -55,7 +48,7 @@ p {
     font-family: 'SFProDisplay';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 100%;
     /* or 24px */
 
@@ -65,7 +58,6 @@ p {
     color: #FFFFFF;
    
 }
-
 
 #input-1 {
     
@@ -175,6 +167,22 @@ p {
     font-weight: bold; 
 }
 
+input[type="text"] {
+    color: white;
+}
+
+#input-1:hover,
+#input-2:hover,
+#input-3:hover {
+  border-color: #952861;
+}
+
+#input-1.submitted:hover,
+#input-2.submitted:hover,
+#input-3.submitted:hover {
+  border-color: #0206ED;
+}
+
 span {
     position: absolute;
     width: 696px;
@@ -229,21 +237,13 @@ button {
     font-weight: bold;
 }
 
-/* @media (max-width: 768px) {
-    h1 {
-        font-size: 6vw;
-        line-height: 6vw;
-        width: 80vw;
-        height: 15vh;
-        left: 10vw;
-        top: 10vh;
-    }
+button:hover {
+    cursor: pointer;
+    background-color: #D45E28;
+    border-color: #254A16;
+    color: white;
+}
 
-    p {
-        font-size: 4vw;
-        top: 40vh;
-    }
-
-    /* Adjust styles for other elements at this screen size */
-
-
+button.submitted:hover {
+    background-color: #254A16;
+}
