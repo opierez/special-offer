@@ -24,6 +24,7 @@ h1 {
     height: 96px;
     left: 408px;
     top: 238px;
+  
 
     /* X-Large */
 
@@ -66,6 +67,7 @@ p {
 }
 
 #input-1 {
+    
     box-sizing: border-box;
 
     /* Auto layout */
@@ -98,33 +100,123 @@ p {
     flex-grow: 0;
 }
 
+#input-2 {
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 760px;
+    top: 502px;
+
+    /* Background/Primary */
+
+    background: #000000;
+    /* Border/Secondary */
+
+    border: 2px solid #3D3D3D;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#input-3 {
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 695px;
+    height: 56px;
+    left: 408px;
+    top: 570px;
+
+    /* Background/Primary */
+
+    background: #000000;
+    /* Text/Success */
+
+    border: 2px solid #129A14;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
 span {
+    position: absolute;
     width: 696px;
-height: 40px;
+    height: 40px;
+    left: 408px;
+    top: 640px;
 
-/* Small Bold */
+    /* Small Bold */
 
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-/* Text/Primary */
+    /* Text/Primary */
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 4px;
+
+    position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 408px;
+    top: 734px;
+
+    /* Button/Primary */
+
+    background: #FFFFFF;
+    border-radius: 16px;
 }
 
 /* @media (max-width: 768px) {
