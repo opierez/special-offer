@@ -55,7 +55,7 @@ p {
     font-family: 'SFProDisplay';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 100%;
     /* or 24px */
 
@@ -168,6 +168,13 @@ p {
     flex-grow: 0;
 }
 
+#input-1::placeholder,
+#input-2::placeholder,
+#input-3::placeholder {
+    color: #FFFFFF;
+    font-weight: bold; 
+}
+
 span {
     position: absolute;
     width: 696px;
@@ -218,6 +225,8 @@ button {
 
     background: #FFFFFF;
     border-radius: 16px;
+
+    font-weight: bold;
 }
 
 /* @media (max-width: 768px) {
