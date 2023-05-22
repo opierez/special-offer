@@ -1,30 +1,147 @@
 @font-face {
     font-family: 'SFProDisplay';
-    src: url('../special-offer/assets/fonts/SFProDisplay-Regular.woff') format('woff');
+    src: url('../special-offer/assets/fonts/SFProDisplay-Regular.woff') format('woff'),
+    url('../special-offer/assets/fonts/SFProDisplay-Regular.woff2') format('woff2');
 }
 
 body {
     position: relative;
-    width: 982px;
-    height: 412.89px;
-    background-color: black;
-    background: url("../special-offer/assets/images/Asset3.png");
+    width: 100vw;
+    height: 100vh;
+    background-color: black !important;
+    background: url("../special-offer/assets/images/Asset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
+
+
 h1 {
+    position: absolute;
+    width: 553px;
+    height: 96px;
+    left: 408px;
+    top: 238px;
+
+    /* X-Large */
+
     font-family: 'SFProDisplay';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
-    letter-spacing: -0.02em;
+    /* or 100% */
+
     display: flex;
     align-items: flex-end;
-    color: white;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+    /* width: 50vw; 
+    height: 10vh; 
+    left: 40vw; 
+    top: 25vh;  */
+}
+
+p {
     position: absolute;
-    width: 553px;
+    width: 522px;
     height: 96px;
     left: 408px;
-    top: 238px; 
+    top: 370px;
+
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    /* or 24px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
 }
+
+#input-1 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 408px;
+    top: 502px;
+
+    /* Background/Primary */
+
+    background: #000000;
+    /* Border/Secondary */
+
+    border: 2px solid #3D3D3D;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+span {
+    width: 696px;
+height: 40px;
+
+/* Small Bold */
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+display: flex;
+align-items: center;
+
+/* Text/Primary */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+/* @media (max-width: 768px) {
+    h1 {
+        font-size: 6vw;
+        line-height: 6vw;
+        width: 80vw;
+        height: 15vh;
+        left: 10vw;
+        top: 10vh;
+    }
+
+    p {
+        font-size: 4vw;
+        top: 40vh;
+    }
+
+    /* Adjust styles for other elements at this screen size */
+
 
