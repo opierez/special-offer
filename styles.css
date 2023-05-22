@@ -239,11 +239,8 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #D45E28;
-    border-color: #254A16;
+    background-color: #254A16;
+    border-color: #D45E28;
     color: white;
 }
 
-button.submitted:hover {
-    background-color: #254A16;
-}
