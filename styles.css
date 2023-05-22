@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../special-offer/assets/fonts/SFProDisplay-Regular.woff') format('woff');
+}
+
+body {
+    position: relative;
+    width: 982px;
+    height: 412.89px;
+    background-color: black;
+    background: url("../special-offer/assets/images/Asset3.png");
+}
+
+h1 {
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    position: absolute;
+    width: 553px;
+    height: 96px;
+    left: 408px;
+    top: 238px; 
+}
+
